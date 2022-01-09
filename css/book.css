@@ -1,0 +1,371 @@
+.nav{
+    margin: 6px auto 0px;
+    border-top: 1px solid #fff;
+    height: 45px;
+    width: 1350px;
+    opacity: 0.8;
+    background-image: url(../images/img-homepage/bg2.jpg);
+    background-color: rgba(69,157,245,0.9);
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.nav ul{
+    width: 740px;
+    height: 45px;
+    padding-left: 180px;
+    margin:0 auto;
+}
+.header ul>li{
+    width: 82px;
+    height: 45px;
+    padding:0 15px;
+    text-align: center;
+}
+.header ul>li:hover{
+    background-color: rgba(140,146,163,0.4);
+}
+.header ul>li:hover a{
+    color: blueviolet;
+}
+.header a{
+    color: #2987e4;
+    display: inline-block;
+    height: 45px;
+    font:900 15px/45px "Microsoft YaHei ";
+}
+.clearfix{
+    content: "";
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.c-crt{
+    color: blueviolet;
+    font-family: 华文行楷;
+    text-shadow: 4px 4px 8px lightskyblue;
+}
+.fl{
+    float: left;
+}
+.box1{
+	height: 480px;
+	width: 1169px;
+	margin:0 auto;
+	position: relative;
+}
+.box1-con{
+	height: 480px;
+	width: 1159px;
+	border-right: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin:10px auto;
+	position: relative;
+	box-shadow: 7px 2px 10px #777 ;
+}
+.box1-con .box1-pic{
+	height: 400px;
+	width: 270px;
+	float: left;
+    position: absolute;
+    left:265px;
+    top: 33px;
+	box-shadow: 5px 5px 10px lightskyblue;
+}
+.box1-con .box1-name{
+	height: 40px;
+	width: 500px;
+	float: right;
+	color: #fff;
+	margin:30px 10px;
+	text-shadow: 2px 2px 2px #000;
+	position: absolute;
+	right: 100px;
+	font: 700 24px/40px 华文行楷;
+	border-bottom: 2px dashed lightseagreen;
+}
+.box1-con .box1-jieshao{
+	width: 500px;
+	height: 266px;
+	float: right;
+	margin-top: 91px;
+	text-indent: 2em;
+	position: absolute;
+	right: 100px;
+	font-size: 16px;
+	line-height: 2;
+	color: #555;
+	font:700 16px/30px SimSun;
+}
+.box1-con .peojianjie{
+	float: right;
+	font-size: 40px;
+	position: absolute;
+	right: 20px;
+	top: 50px;
+	height: 250px;
+	width: 50px;
+	background: linear-gradient(#A64DFF,lightskyblue);
+	border-radius: 50%;
+	box-shadow: -5px 2px 10px lightskyblue;
+	color: #fff;
+	text-shadow: 2px 2px 2px #000;
+	font-family: 华文行楷;
+	padding:5px 0px 5px 5px;
+}
+.box1-nav{
+	width:260px;
+	height: 480px;
+	float: left; 
+	z-index: 100;
+	position: absolute;
+	top: 0px;
+	border-radius: 5%;
+	background:whitesmoke;
+	box-shadow: 5px 2px 10px #aaa;
+}
+.box1 .box1-nav li{
+	width: 240px;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 12px;
+	margin-left: 7px;
+	position: relative;
+}
+.box1 .box1-nav li a{
+	display: inline-block;
+	text-decoration: none;
+	/* float: left; */
+	font:900 15px/40px SimSun;
+	color: #2987e4;
+	text-shadow: 2px 2px 3px #fff;
+}
+.box1 .box1-nav  ul li .jt{
+	height: 30px;
+	width: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	bottom: 5px;
+	color: rgb(137, 135, 235);
+	text-shadow: 2px 2px 2px #000;
+	position: absolute;
+	right: 0px;
+}
+.box1 .box1-nav ul h3{
+	color:#00BFFF;
+	margin-left: 22px;
+	height: 35px;
+	width: 210px;
+	line-height: 35px;
+	font-family: 华文行楷;
+	font-size: 20px;
+	text-shadow: 2px 2px 2px #fff;
+	text-align: center;
+	box-shadow: 5px 2px 10px #0085B2 ;
+	position: relative;
+}
+.dec{
+	width: 1000px;
+	height: 100px;
+	position: relative;
+	bottom: 120px;
+}
+.box1 .box1-nav .paopao1{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	box-shadow: 2px -1px 10px #0085B2 inset;
+	position: absolute;
+	left:35px;
+	top: -13px;
+}
+.box1 .box1-nav .paopao2{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	box-shadow: 2px -1px 10px #0085B2 inset;
+	position: absolute;
+	left:0px;
+	top: 9px;
+}
+.box1 .box1-nav .paopao3{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	box-shadow: 2px -1px 10px #0085B2 inset;
+	position: absolute;
+	left:14px;
+	top: -18px;
+}
+.box1 .box1-nav ul li:hover{
+	box-shadow: -1px 2px 10px #aaa;
+}
+.whirligig{
+	height: 576px;
+	width: 1119px;
+	margin:30px auto;
+	padding:20px;
+	box-shadow: -5px -5px 20px lightskyblue;
+	position: relative;
+}
+.more{
+	display: inline-block;
+	height: 20px;
+	width: 120px;
+	position: absolute;
+	right: -16px;
+	bottom: -30px;
+	text-align: center;
+	font: italic 900 16px/20px 宋体 ;
+	color: #B973FF;
+	text-decoration: underline;
+}
+.box1-nav-more{
+   width: 500px;
+   height: 430px;
+   display: none;
+   background-color: #fff;		
+   position: absolute;
+   right: -514px;	
+   background:whitesmoke;			
+}
+.box1-nav-more2{
+	top: -47px;
+}
+.box1-nav-more3{
+	top: -94px;
+}
+.box1-nav-more4{
+	top: -141px;
+}
+.box1-nav-more5{
+	top: -188px;
+}
+.box1-nav-more6{
+	top: -235px;
+}
+.box1-nav-more7{
+	top: -282px;
+}
+.box1-nav-more8{
+	top: -329px;
+}
+.box1-nav-more9{
+	top: -376px;
+}
+.box1-nav li:hover .box1-nav-more{
+	display: block;
+	box-shadow: 5px -2px 10px rgb(0, 191, 255) ;
+}
+.box1-nav-more .p0{
+	float: left;
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 5px 2px 10px #aaa;
+}
+.box1-nav-more p{
+	font:900 16px/30px SimSun;
+	color: #000;
+	text-shadow: 0px 1px 1px #fff;
+	text-indent: 2em;
+	padding:10px;
+	box-sizing: border-box;
+}
+.p1{
+	float: right;
+}
+.box1 .dec{
+	width: 1082px;
+	display: inline-block;
+}
+.box>.flower1{
+	float: right;
+	width: 330px;
+	margin-top: -20px;
+}
+.box1>.flower2{
+	width: 250px;
+	position: absolute;
+	right: -35px;
+	bottom: -10px;
+}
+.box2{
+	width: 1159px;
+	height: 470px;
+	margin: 60px auto;
+	box-shadow: -1px -1px 7px rgb(4, 7, 24);
+}
+.box2-nav{
+	height: 90px;
+	position: relative;
+}
+.box2-nav span{
+	display: inline-block;
+	width: 280px;
+	height: 50px;
+	border-radius: 15%;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 20px;
+	font: 700 30px/50px  华文行楷;
+	text-shadow: 2px 2px 2px #000;
+	box-shadow: 5px 2px 10px #0085B2 ;
+	background-image: url(../images/img-book/heart.gif);
+	color:#00BFFF;
+}
+.box2-con p{
+	text-indent: 2em;
+	font:700 16px/30px SimSun;
+	color: #444;
+	height: 60px;
+}
+.box2-con-line1,.box2-con-line2{
+	height: 30px;
+	width: 1050px;
+	margin:10px auto;
+	border-bottom: 1px dotted #ccc;
+	position: relative;
+}
+.box2-con-line1-left,.box2-con-line2-left{
+	float: left;
+	height: 25px;
+	width: 300px;
+	position: absolute;
+	left: 40px;
+	font-weight: 700;
+	font-size: 13px;
+	color: #222;
+}
+.box2-con-line1-right,.box2-con-line2-right{
+	width: 25px;
+	width: 300px;
+	position: absolute;
+	font-weight: 700;
+	font-size: 13px;
+	left: 540px;
+	color: #222;
+}
+.box2-con-jieshao {
+     height: 200px;
+     float: left;
+	 font:700 16px/30px SimSun;
+}
+.box2-con-jieshao p{
+	margin-bottom: 30px;
+}
+.box2 img{
+	float: right;
+	margin:10px;
+	box-shadow: -4px 4px 8px lightskyblue;
+}
+.one{
+	height: 80px;
+	margin-top: 10px;
+}
+.box2-con{
+	height: 374px;
+	margin-left: 20px;
+	position: relative;
+}

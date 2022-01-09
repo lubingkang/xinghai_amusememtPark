@@ -1,0 +1,27 @@
+body{
+    background-image: url(../images/img-index/index.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+a{
+    width: 250px;
+    height: 250px;
+    display: block;
+    background-image: url(../images/img-index/bg.gif);
+    border-radius: 50%;
+    text-align: center;
+    color: #00FF40;
+    text-shadow: 2px 2px 1px #000;
+    font:700 40px/150px 华文行楷;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    box-shadow: 17px 10px 20px blueviolet inset;
+}
+a:hover{
+    top:25px;
+    box-shadow: 8px 8px 30px lightskyblue;
+    transition: 0.3s;
+}
